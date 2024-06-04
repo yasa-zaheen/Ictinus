@@ -26,74 +26,74 @@ B (255 */
        URL: https://gradient.page */
 
     /* CSS: .bg-gradient { background: var(--gradient) } */
-    --gradient: linear-gradient(to top left,#1F1C2C,#928DAB);
-    --background: 267 96.1% 98.28%;
-    --foreground: 267 2.2% 0.56%;
+    --gradient: linear-gradient(to top left,#2C3E50,#FD746C);
+    --background: 223 96.45% 98.48%;
+    --foreground: 223 2.9% 0.96%;
 
-    --muted: 267 2.2% 91.4%;
-    --muted-foreground: 267 1.1% 41.4%;
+    --muted: 223 2.9% 92.4%;
+    --muted-foreground: 223 1.45% 42.4%;
 
-    --popover: 267 72.4% 91.4%;
-    --popover-foreground: 267 2.2% 0.7000000000000001%;
+    --popover: 223 66.8% 92.4%;
+    --popover-foreground: 223 2.9% 1.2%;
 
-    --card: 267 72.4% 91.4%;
-    --card-foreground: 267 2.2% 0.7000000000000001%;
+    --card: 223 66.8% 92.4%;
+    --card-foreground: 223 2.9% 1.2%;
 
-    --border: 267 7.2% 89.56%;
-    --input: 267 7.2% 89.56%;
+    --border: 223 7.9% 89.96%;
+    --input: 223 7.9% 89.96%;
 
-    --primary: 267 22% 14%;
-    --primary-foreground: 267 0.44% 91.4%;
+    --primary: 223 29% 24%;
+    --primary-foreground: 223 0.58% 92.4%;
 
-    --secondary: 267 1.1% 95.7%;
-    --secondary-foreground: 267 2.3200000000000003% 11.4%;
+    --secondary: 223 1.45% 96.2%;
+    --secondary-foreground: 223 2.7399999999999998% 12.4%;
 
-    --accent: 267 1.1% 95.7%;
-    --accent-foreground: 267 2.3200000000000003% 11.4%;
+    --accent: 223 1.45% 96.2%;
+    --accent-foreground: 223 2.7399999999999998% 12.4%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
 
-    --ring: 267 22% 14%;
+    --ring: 223 29% 24%;
 
     --radius: 0.5rem;
 }
   .dark {
     /* Name: custom color palette
-       Author: Ilias Ism
-       URL: https://gradient.page */
+      Author: Ilias Ism
+      URL: https://gradient.page */
 
     /* CSS: .bg-gradient { background: var(--gradient) } */
-    --gradient: linear-gradient(to top left, #007adf, #00ecbc);
+    --gradient: linear-gradient(to top left,#ED4264,#FFEDBC);
 
-    --background: 220 65% 3.52%;
-    --foreground: 220 10% 97.2%;
+    --background: -13 53.949999999999996% 4.8%;
+    --foreground: -13 8.299999999999999% 98%;
 
-    --muted: 220 50% 13.2%;
-    --muted-foreground: 220 10% 54.4%;
+    --muted: -13 41.5% 18%;
+    --muted-foreground: -13 8.299999999999999% 56%;
 
-    --popover: 220 45% 5.72%;
-    --popover-foreground: 220 10% 97.2%;
+    --popover: -13 48.400000000000006% 7.8%;
+    --popover-foreground: -13 8.299999999999999% 98%;
 
-    --card: 220 45% 5.72%;
-    --card-foreground: 220 10% 97.2%;
+    --card: -13 48.400000000000006% 7.8%;
+    --card-foreground: -13 8.299999999999999% 98%;
 
-    --border: 220 50% 13.2%;
-    --input: 220 50% 13.2%;
+    --border: -13 41.5% 18%;
+    --input: -13 41.5% 18%;
 
-    --primary: 220 100% 44%;
-    --primary-foreground: 220 10% 97.2%;
+    --primary: -13 83% 60%;
+    --primary-foreground: -13 8.299999999999999% 6%;
 
-    --secondary: 220 50% 13.2%;
-    --secondary-foreground: 220 10% 97.2%;
+    --secondary: -13 41.5% 18%;
+    --secondary-foreground: -13 8.299999999999999% 98%;
 
-    --accent: 220 50% 13.2%;
-    --accent-foreground: 220 10% 97.2%;
+    --accent: -13 41.5% 18%;
+    --accent-foreground: -13 8.299999999999999% 98%;
 
     --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 220 10% 97.2%;
+    --destructive-foreground: -13 8.299999999999999% 98%;
 
-    --ring: 220 100% 44%;
+    --ring: -13 83% 60%;
   }
 }
 
