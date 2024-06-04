@@ -1,3 +1,5 @@
+// This file is used by Shadcn UI for dark and light modes
+
 "use client";
 
 import * as React from "react";

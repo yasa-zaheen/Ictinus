@@ -1,9 +1,15 @@
 "use client";
 
+// React
 import * as React from "react";
-import { Moon, Sun } from "lucide-react";
+
+// Next
 import { useTheme } from "next-themes";
 
+// Lucide Icons
+import { Moon, Sun } from "lucide-react";
+
+// Shadcn UI
 import { Button } from "@/components/ui/button";
 import {
   DropdownMenu,

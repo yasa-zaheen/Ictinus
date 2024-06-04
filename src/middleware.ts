@@ -1,10 +1,11 @@
+// Clerk
 import { clerkMiddleware, createRouteMatcher } from "@clerk/nextjs/server";
 
 const isPublicRoute = createRouteMatcher([
   "/site",
   "/api/uploadthing",
-  "/agency/sign-in(.*)",
-  "/agency/sign-up(.*)",
+  "/agency/sign-in(.*)", // Enabling all catch-ons to be public
+  "/agency/sign-up(.*)", // Enabling all catch-ons to be public
 ]);
 
 export default clerkMiddleware((auth, request) => {

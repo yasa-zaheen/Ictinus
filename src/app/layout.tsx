@@ -7,6 +7,8 @@ import { Inter } from "next/font/google";
 // Clerk
 import { ClerkProvider } from "@clerk/nextjs";
 import { dark } from "@clerk/themes";
+
+// Others
 import { ThemeProvider } from "@/providers/theme-provider";
 
 const inter = Inter({ subsets: ["latin"] });
