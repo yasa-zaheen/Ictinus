@@ -1,3 +1,8 @@
+// Next
+import Image from "next/image";
+import Link from "next/link";
+
+// Shadcn
 import {
   Card,
   CardContent,
@@ -6,11 +11,12 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
+
+// Constants
 import { pricingCards } from "@/lib/constants";
-import clsx from "clsx";
+
+// Lucice Icons
 import { Check } from "lucide-react";
-import Image from "next/image";
-import Link from "next/link";
 
 export default function Home() {
   return (
@@ -48,8 +54,9 @@ export default function Home() {
           ready to commit you can get started for free.
         </p>
 
-        <div className="flex gap-4 flex-wrap mt-6">
+        <div className="flex justify-center gap-4 flex-wrap mt-6">
           {pricingCards.map((card) => (
+            // WIP: Wire up free product from stripe
             <Card
               key={card.title}
               className={`w-[300px] flex flex-col justify-between ${
@@ -57,6 +64,7 @@ export default function Home() {
               }`}
             >
               <CardHeader>
+                {/* Title */}
                 <CardTitle
                   className={`${
                     card.title !== "Unlimited Saas"
@@ -66,13 +74,16 @@ export default function Home() {
                 >
                   {card.title}
                 </CardTitle>
+                {/* Description */}
                 <CardDescription>{card.description}</CardDescription>
               </CardHeader>
               <CardContent>
+                {/* Pricing */}
                 <span className="text-4xl font-bold">{card.price}</span>
                 <span className="text-muted-foreground">/m</span>
               </CardContent>
               <CardFooter className="flex flex-col items-start gap-4">
+                {/* Features */}
                 <div>
                   {card.features.map((feature) => (
                     <div key={feature} className="flex gap-2 items-center">
@@ -81,6 +92,7 @@ export default function Home() {
                     </div>
                   ))}
                 </div>
+                {/* Payment Link */}
                 <Link
                   href={`/agency?plan=${card.priceId}`}
                   className={`w-full text-center p-2 text-primary-foreground dark:text-white rounded-md ${
