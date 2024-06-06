@@ -6,7 +6,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 // Clerk
-import { UserButton } from "@clerk/nextjs";
+import { SignedIn, SignedOut, UserButton } from "@clerk/nextjs";
 
 // Components
 import { ModeToggle } from "@/components/global/mode-toggle";
@@ -41,13 +41,17 @@ const Navigation = ({ user }: Props) => {
 
       {/* Login Button and Theme Selector */}
       <aside className="flex gap-2 items-center">
-        <Link
-          href={"/agency"}
-          className="bg-primary text-white py-2 px-4 rounded-md hover:bg-primary/80"
-        >
-          Log In
-        </Link>
-        <UserButton />
+        <SignedOut>
+          <Link
+            href={"/agency/sign-in"}
+            className="bg-primary text-white py-2 px-4 rounded-md hover:bg-primary/80"
+          >
+            Log In
+          </Link>
+        </SignedOut>
+        <SignedIn>
+          <UserButton />
+        </SignedIn>
         <ModeToggle />
       </aside>
     </div>
